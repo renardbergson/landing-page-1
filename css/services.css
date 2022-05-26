@@ -1,0 +1,38 @@
+.services {
+    background-color: var(--primary-color-light);
+    padding: 100px 0;
+}
+.services .container {
+    text-align: center;
+}
+
+.services h2 {
+    color: var(--secondary-color);
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.services .boxes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.services .boxes .box {
+    border: 3px solid var(--primary-color);
+    padding: 50px 40px;
+    margin: 30px;
+}
+
+.services .boxes .box h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+.services .boxes .box p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}

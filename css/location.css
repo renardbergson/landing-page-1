@@ -1,0 +1,45 @@
+.location {
+    background-image: url(../images/bg-location.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.location .header {
+    background-color: var(--tertiary-color);
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location .header .info {
+    display: flex;
+    align-items: center;
+}
+
+.location .header .info .icon {
+    margin-right: 15px;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location .header span {
+    display: block;
+    font-size: 13px;
+    color: silver;
+}
+
+.location .header span:last-child {
+    color: white;
+}
+
+.location .map iframe {
+    width: 100%;
+}

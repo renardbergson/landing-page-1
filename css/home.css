@@ -1,0 +1,59 @@
+.home {
+    background-image: url(../images/bg-home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .menu li {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .menu li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.header .menu li a:hover {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.home .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    height: calc(100vh - 190px);
+}
+
+.home .content .slogan1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--primary-color);
+}
+
+.home .content .slogan2 {
+    margin-bottom: 15px;
+}
+
+.home .content h1 {
+    font-size: 120px;
+}
