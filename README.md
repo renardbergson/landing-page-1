@@ -1,3 +1,3 @@
-# projeto-barber-shop
+# barber-shop
 
-URL: https://renardbergson.github.io/projeto-barber-shop/
+URL: https://barber-shop-rb.netlify.app
