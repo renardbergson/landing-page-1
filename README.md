@@ -33,4 +33,4 @@ Este projeto foi desenvolvido como uma forma de explorar HTML e CSS, antes de av
 
 ```bash
 # Clone este repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/renardbergson/landing-page-barber-shop.git
